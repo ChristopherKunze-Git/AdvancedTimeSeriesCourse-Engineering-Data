@@ -37,28 +37,6 @@ We use the HUPA-UCM Diabetes Dataset, which includes data from 25 individuals wi
 - Carbohydrate intake and insulin dosages (basal + bolus)
 - Preprocessed 5-minute interval data
 
-### Model Evaluation
-
-Tasks:
-
-Task 1: Predict glucose level 1h in advance for a single subject
-
-- 1a: Training on the same subject’s data
-
-- 1b: Training augmented with other subjects’ data
-
-Task 2: Predict glucose level 1h in advance for multiple subjects
-
-- 2a: Training on one other subject’s data
-
-- 2b: Training on multiple subjects’ data
-
-### Evaluation Metrics
-
-- Root Mean Square Error (RMSE): Measures absolute prediction errors.
-
-- Mean Absolute Percentage Error (MAPE): Measures relative errors in percentage.
-
 ### Summary
 
 Model   |   RMSE   |   MAPE
