@@ -2,7 +2,7 @@
 
 **[Notebook](EDA_Preprocessing.ipynb)**
 
-## Databasis
+## Dataset
 
 Die Analyse basiert auf dem HUPA-UCM Diabetes Dataset, das Daten von 25 Patienten mit Typ-1-Diabetes über mehrere Tage enthält. Die Daten umfassen kontinuierliche Blutzuckermessungen, Insulindosierungen, Kohlenhydrataufnahmen sowie Fitness-Tracker-Daten (z. B. Schritte, Herzfrequenz, Kalorienverbrauch).
 
