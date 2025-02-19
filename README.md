@@ -4,7 +4,7 @@
 
 [https://github.com/ChristopherKunze-Git/AdvancedTimeSeriesCourse-Engineering-Data]
 
-## Abstract
+## Abstract (deutsch)
 Das Projekt „Blood Glucose Prediction“ befasst sich mit der Vorhersage von Blutzuckerwerten bei Patienten mit Typ-1-Diabetes anhand von Zeitreihenmodellen. Ziel ist es, Blutzuckerwerte eine Stunde im Voraus vorherzusagen, um Betroffenen eine bessere Therapieplanung zu ermöglichen. Grundlage der Analyse ist das HUPA-UCM Diabetes Dataset, das kontinuierliche Blutzuckermessungen, Insulindosierungen, Kohlenhydrataufnahmen sowie Fitness-Tracker-Daten wie Schritte, Herzfrequenz und Kalorienverbrauch von 25 Patienten über mehrere Tage enthält.
 
 Zu Beginn der Analyse zeigten sich einige Herausforderungen in der Datenqualität. Die Daten sind ungleichmäßig verteilt, da über 50 % der Messwerte von nur einem einzigen Patienten stammen, während einige Patienten nur sehr wenige Datenpunkte liefern. Zudem sind für bestimmte Patienten einzelne Variablen nicht oder nur unvollständig erfasst. Um die Qualität der Daten zu verbessern, wurden verschiedene Imputationsmethoden angewendet, darunter lineare Interpolation sowie Multiple Imputation mit Chained Equations (MICE) für fehlende Herzfrequenzwerte. Darüber hinaus wurden Feature Engineering-Techniken eingesetzt, um aussagekräftige Merkmale für die Modellierung zu extrahieren. Beispielsweise wurden stark korrelierte Variablen wie Kohlenhydrataufnahme und Insulindosis bereinigt und durch robustere Alternativen ersetzt. Zudem wurden zeitabhängige Merkmale wie die Tageszeit (sin/cos-codiert) sowie Lag-Features zur Berücksichtigung früherer Blutzuckerwerte eingeführt.
