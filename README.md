@@ -4,6 +4,9 @@
 
 [https://github.com/ChristopherKunze-Git/AdvancedTimeSeriesCourse-Engineering-Data]
 
+## Context 
+Diabetes mellitus stellt eine große gesellschaftliche Herausforderung dar. Weltweit sind Millionen Menschen auf eine kontinuierliche Blutzuckerkontrolle angewiesen, um gefährliche Über- (Hyperglykämie) oder Unterzuckerungen (Hypoglykämie) zu vermeiden. Unkontrollierte Blutzuckerschwankungen können zu schwerwiegenden Langzeitfolgen wie Herz-Kreislauf-Erkrankungen, Nervenschäden oder Nierenerkrankungen führen. Eine präzise Vorhersage des Blutzuckerspiegels könnte daher die Lebensqualität der Betroffenen erheblich verbessern, indem sie frühzeitig Gegenmaßnahmen ergreifen können, sei es durch Insulindosierung, Nahrungsaufnahme oder körperliche Aktivität. 
+
 ## Abstract (deutsch)
 Das Projekt „Blood Glucose Prediction“ befasst sich mit der Vorhersage von Blutzuckerwerten bei Patienten mit Typ-1-Diabetes anhand von Zeitreihenmodellen. Ziel ist es, Blutzuckerwerte eine Stunde im Voraus vorherzusagen, um Betroffenen eine bessere Therapieplanung zu ermöglichen. Grundlage der Analyse ist das HUPA-UCM Diabetes Dataset, das kontinuierliche Blutzuckermessungen, Insulindosierungen, Kohlenhydrataufnahmen sowie Fitness-Tracker-Daten wie Schritte, Herzfrequenz und Kalorienverbrauch von 25 Patienten über mehrere Tage enthält.
 
