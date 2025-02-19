@@ -2,6 +2,28 @@
 
 **[Notebook](model_tree.ipynb)**
 
+## Model Evaluation
+
+### Tasks:
+
+Task 1: Predict glucose level 1h in advance for a single subject
+
+- 1a: Training on the same subject’s data
+
+- 1b: Training augmented with other subjects’ data
+
+Task 2: Predict glucose level 1h in advance for multiple subjects
+
+- 2a: Training on one other subject’s data
+
+- 2b: Training on multiple subjects’ data
+
+## Evaluation Metrics
+
+- Root Mean Square Error (RMSE): Measures absolute prediction errors.
+
+- Mean Absolute Percentage Error (MAPE): Measures relative errors in percentage.
+
 ## Advanced models Explored
 
 ### 1. Traditional Time Series Models
